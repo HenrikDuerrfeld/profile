@@ -1,0 +1,79 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+h1 {
+  color: 78C4BC;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 3000; 
+}
+h2 {
+  color: FF6800;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 1500; 
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500; 
+  color: #58607D;
+}
+a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500; 
+}
+.btn-purple:hover {
+  color: red;
+}
+ul {
+  list-style: none;
+}
+
+.btn-purple {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: #6B72E1;
+  padding: 8px;
+  border-radius: 4px;
+}
+.instagram-tag:hover {
+  color: red;
+}
+.instagram-tag {
+  font-size: 40px;
+}
+#my-picture {
+    border-radius: 54%;
+    height: 100px;
+}
+body {
+    background-color: B6AEE9;
+  }
+.card {
+  background-color: white;
+  padding: 32px;
+  margin: 24px auto;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1); 
+  border-radius: 4px;
+}
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+}
+  @media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 250px;
+    }
+  }
